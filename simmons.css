@@ -1,0 +1,110 @@
+table{
+    width: 100%;
+}
+header ul{
+    display: flex;
+}
+header li{
+   padding-right: 10px;
+}
+#head{
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: rgb(0, 187, 255);
+}
+h1{
+    color: white;
+font-family: 'Courier New', Courier, monospace;
+}
+ul {
+    list-style-type: none;
+}
+ul button{
+    background-color:rgb(0, 187, 255) ;
+    color: white;
+    border-color: white;
+}
+#nav{
+    background-color: rgb(42, 42, 132);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:100%;
+    padding-left: 60px;
+}
+
+nav td:hover{
+    background-color: rgb(1, 1, 48);
+}
+td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+img{
+width: 95%;
+
+}
+#hero{
+padding: 20px;
+padding-right: 0px;
+padding-left: 45px;
+}
+
+#slogan{
+    background-color: rgb(85, 162, 41);
+    padding: 20px;
+    margin-right: 65px;
+    margin-left: 45px;
+    color: white;
+
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+ 
+  .col{
+    padding-top:30px;
+    padding-right:50px;
+   
+  }
+  .col-6{
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+ a:hover{
+    background-color:rgb(42, 42, 132) ;
+ }
+ #sim{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:100%;
+    padding-left: 38Spx;
+ }
+ #sim button{
+    background-color: white;
+    color:rgb(0, 187, 255) ;
+    border-color: rgb(0, 187, 255);
+    width: 200px;
+ }
+#sim button:hover {
+    background-color:rgb(0, 187, 255) ;
+    color:white ;
+}
+ footer{
+    background-color: rgb(72, 70, 70);
+    color: white;
+ }
+ #box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2em;
+    padding-top: 10px;
+  }
+  
+ 
